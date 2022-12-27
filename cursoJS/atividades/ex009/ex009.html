@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operadores 2</title>
+</head>
+<body>
+    <h2>Operadores relacionais</h2>
+    <p>&lt;(menor que)<br>&gt;(maior que)<br>&lt;=(menor ou igual)<br>&gt;=(maior ou igul)<br>==(igual a)<br>!=(diferente de)<br></p>
+    <script>
+        document.write(`5 > 2 = ${5 > 2} .`)
+        document.write(`7 < 4 = ${7 < 4} .`)
+        document.write(`8 >= 8 = ${8 >= 8} .`)
+        document.write(`9 <= 7 = ${9 <= 7} .`)
+        document.write(`5 == 5 = ${5 == 5} .`)
+        document.write(`4 != 4 = ${4 != 4} .`)
+    </script>
+    <h2>Operadores de identidade</h2>
+    <script>
+        document.write(`5 == 5 = ${5 == 5} .`)
+        document.write(`5 == '5' = ${5 == '5'} .`)
+        document.write(`5 === '5' = ${5 === '5'} .`)
+        document.write(`5 === 5 = ${5 === 5}`)
+    </script>
+    <p>=== se lê como "identico", a mesma coisa serve para !== que se lê "desigual restrito"</p>
+    
+    <h2>Operadores lógicos</h2>
+    <p>!(negação (não))<br>&&(conjunção (e))<br>||(disjunções (ou))</p>
+
+    <h2>Operadores ternários</h2>
+    <p>?<br>:<br></p>
+    <p>Junta da seguinte mneira três operarios: <br> teste?true:false <br> o teste lógico, o que vai acontecer se ele for verdadeiro e o que vai acontecer se ele for falso <br> Exemplo</p>
+    <p>var média = 5</p>
+    <p>média>=7.0 ? 'aprovado' : 'reprovado'</p>
+    <script>
+        var média = 5
+        document.write(média>=7.0 ? 'aprovado' : 'reprovado')
+    </script>
+</body>
+</html>

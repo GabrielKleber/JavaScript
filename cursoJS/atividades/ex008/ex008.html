@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores 1</title>
+</head>
+<body>
+    <h1>Aritméticos</h1>
+    <h2>Os operadores aritméticos são</h2>
+    <p>+(soma)<br>-(subtração)<br>*(multiplicação)<br>/(divisão de números reais)<br>%(resto da divisão inteira)<br>**(potenciação)<br> exemplo:</p>
+    <script>
+        var a = 5 + 3
+        var b = a % 5
+        var c = 5 * b ** 2
+        var d = 10 * a / 2
+        var e = 6 * 2 / d
+        var f = b % e + 4 / e
+        document.write(`a = 5 + 3 = ${a}   .`)
+        document.write(`b = a % 5 = ${b}   .`)
+        document.write(`c = 5 * b ** 2 = ${c}   .`)
+        document.write(`d = 10 * a / 2 = ${d}   .`)
+        document.write(`e = 6 * 2 / d = ${e}   .`)
+        document.write(`f = b % e + 4 / e = ${f}   .`)
+    </script>
+    <h2>Auto-atribuição</h2>
+    <script>
+        var n = 3
+        document.write(`O valor de n é ${n} .`)
+        n += 4
+        document.write(`O valor de n é ${n} .`)
+        n -= 5
+        document.write(`O valor de n é ${n} .`)
+        n *= 4
+        document.write(`O valor de n é ${n} .`)
+        n /= 2
+        document.write(`O valor de n é ${n} .`)
+        n **= 2
+        document.write(`O valor de n é ${n} .`)
+        n %= 5
+        document.write(`O valor de n é ${n} .`)
+    </script>
+</body>
+</html>

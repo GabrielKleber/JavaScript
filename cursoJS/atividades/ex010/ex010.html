@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros pasos com o DOM</title>
+    <style>
+        body{
+            background-color: rgb(16, 124, 196);
+            color: white;
+            font: normal 10pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div>Clique em mim</div>
+    <h3>Por marca</h3>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]//para selecionar o primeiro paragrafo
+        p1.style.color = 'Blue'
+
+        window.document.write(window.document.URL)//Isso é DOM, é como se fosse uma árvore onde o primeiro é windows e ele tem "filhos", como o documente, os ditos elementos
+        //Essa é a marcação por marca
+    </script>
+    <h3>Por ID</h3>
+    <p>Para uasr ele só é escrever getElementById()</p>
+    <h3>Por nome</h3>
+    <p>Se usa getElementsByName()</p>
+    <h3>Por classe</h3>
+    <p>Se usa getElementsByClassName()</p>
+    <h3>Por Seletor</h3>
+    <p>Se usa querySelector() para o singular e o querySelectorAll() como se fosse o plural</p>
+    <p>Os id são representadas por # e as classes por ' . '</p>
+</body>
+</html>
